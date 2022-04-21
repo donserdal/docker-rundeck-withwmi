@@ -1,4 +1,4 @@
-FROM rundeck/rundeck@4.1.0
+FROM rundeck/rundeck:4.1.0
 LABEL maintainer "Serdal Ozkan <donserdal@hotmail.com>"
 
 RUN sudo apt install python3-pip python-is-python3 
