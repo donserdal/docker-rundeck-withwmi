@@ -2,7 +2,7 @@ FROM rundeck/rundeck:4.1.0
 LABEL maintainer "Serdal Ozkan <donserdal@hotmail.com>"
 
 RUN sudo apt update
-RUN sudo apt install python3-pip python-is-python3 -y
+RUN sudo apt install python3-pip python-is-python3 ansible -y
 RUN sudo sh -c 'yes | pip install requests urllib3 pywinrm'
 
 VOLUME ["/home/rundeck/server/data"]
