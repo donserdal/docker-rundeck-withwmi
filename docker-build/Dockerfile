@@ -10,3 +10,4 @@ VOLUME ["/home/rundeck/server/data"]
 
 EXPOSE 4440
 ENTRYPOINT [ "/tini", "--", "docker-lib/entry.sh" ]
+# Updated 2022-6-25
