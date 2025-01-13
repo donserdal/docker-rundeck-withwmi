@@ -1,4 +1,4 @@
-FROM rundeck/rundeck:4.7.0
+FROM rundeck/rundeck:5.8.0
 LABEL maintainer "Serdal Ozkan <donserdal@hotmail.com>"
 
 RUN sudo apt update
